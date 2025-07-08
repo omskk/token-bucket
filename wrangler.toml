@@ -2,10 +2,10 @@ name = "token-bucket"
 main = "src/index.js"
 compatibility_date = "2023-12-01"
 
-kv_namespaces = [
-  { binding = "KV", id = "your-kv-id-here", preview_id = "your-preview-kv-id-here" }
-]
+#kv_namespaces = [
+#  { binding = "KV", id = "your-kv-id-here", preview_id = "your-preview-kv-id-here" }
+#]
 
 # 添加环境变量（可选，用于 API 鉴权）
 [vars]
-# AUTH_KEY = "123" # 取消注释并设置你的密钥值 
+# AUTH_KEY = "123" # 取消注释并设置你的密钥值
